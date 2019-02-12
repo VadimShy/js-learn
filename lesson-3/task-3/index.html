@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body> 
+  
+    <script>
+    var login = prompt('Please enter your Login', ''); 
+    
+    if(login == 'Admin') {
+       var pass = prompt('Enter your password', '');
+            if(pass == 'Black Overlord') {
+                alert('Welcome!');
+            }
+               else if(pass == null) {
+                    alert('Login canceled');
+                }
+                    else {
+                        alert('Wrong Password');
+                    }
+    }
+        else if(login == null) {
+            alert('Login canceled');
+        }
+            else {
+                alert('I don\'t know you!');
+            }
+  
+    </script>
+
+
+</body>
+
+</html>
